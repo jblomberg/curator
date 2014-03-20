@@ -14,7 +14,7 @@ def get_version():
 
 setup(
     name = "elasticsearch-curator",
-    version = get_version(),
+    version = str(get_version()),
     author = "Aaron Mildenstein",
     author_email = "aaron@mildensteins.com",
     description = "Tending your time-series indices in Elasticsearch",
