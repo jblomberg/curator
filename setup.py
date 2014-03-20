@@ -19,8 +19,8 @@ setup(
     author_email = "aaron@mildensteins.com",
     description = "Tending your time-series indices in Elasticsearch",
     long_description=str(fread('README.md')),
-    url = "http://github.com/elasticsearch/curator",
-    download_url = "https://github.com/elasticsearch/curator/tarball/v1.0.0-dev",
+    url = "http://github.com/jblomberg/curator",
+    download_url = "https://github.com/jblomberg/curator/tarball/v1.0.0-dev",
     license = "Apache License, Version 2.0",
     install_requires = [
         'elasticsearch>=1.0.0,<2.0.0'
